@@ -7,7 +7,6 @@ astor==0.7.1
 Babel==2.7.0
 backports.csv==1.0.7
 Beaker==1.10.1
-binwalk==2.1.1
 bitstring==3.1.5
 btrfsutil==1.1.1
 CacheControl==0.12.5
