@@ -23,6 +23,7 @@ def index():
 			return redirect(request.url)
 		
 		if file and allowed_file(file.filename):                     
+			file.filename = secure_filename(file.filename)
 			if file.filename[-8:] == 'e2allpat':
 				ap = E2AllPat(file, 'e2allpat')
 				response = ap.write_zip()
