@@ -42,6 +42,6 @@ def index():
 				elif ap.ap_type == 'e2sallpat':
 					file_name = file.filename[:-4] + '.e2sallpat'		
 
-			return send_file(response, attachment_filename=file_name, as_attachment=True) #and redirect(url_for('index'))
+			return send_file(response, attachment_filename=file_name, as_attachment=True)
 	
 	return render_template('index.html')           

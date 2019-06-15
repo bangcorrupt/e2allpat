@@ -30,7 +30,7 @@ class E2AllPat():
 			end = start + pat_len
 			pat_data = self.ap_data [start:end]			
 			pat_data = self.header + pat_data
-			pat_list.append(pat_data)			# update this to be list of pattern objects
+			pat_list.append(pat_data)
 		return pat_list
 
 
@@ -92,7 +92,7 @@ class E2AllPat():
 					del file_list[l]
 				else: 
 					l+=1
-		ap_list = [settings]	# add korg file header + global settings
+		ap_list = [settings]	# korg file header + global settings
 
 		for k in range(250):	
 			pat_data = bytearray(zf.read(file_list[k])[256:])
