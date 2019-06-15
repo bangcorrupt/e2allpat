@@ -4,7 +4,10 @@ Convert allpat file to zip archive of pattern files and vice versa.
 
 Hosted at: https://e2allpat.herokuapp.com/
 
-Help: Submit allpat file and receive zip archive of patterns + global settings backup.
+
+# Help 
+
+Submit allpat file and receive zip archive of patterns + global settings backup.
 
 Submit zip archive of patterns + global settings backup and receive allpat file.
 
@@ -18,4 +21,7 @@ Re-order and rename patterns by editing filenames.
 
 Filenames must retain 4 character 'nnn_' prefix for patterns to be named correctly.
 
-Support http://www.korgforums.com/forum/phpBB2/viewtopic.php?t=118795
+
+# Support 
+
+http://www.korgforums.com/forum/phpBB2/viewtopic.php?t=118795
