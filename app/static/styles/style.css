@@ -19,12 +19,11 @@ margin: 0 4px 0 0;
     top: 0px;
     right: 0px;
 }
-/* unvisited link */
+
 a:link {
   color: lightblue;
 }
 
-/* mouse over link */
 a:hover {
   color: hotpink;
 }
