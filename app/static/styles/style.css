@@ -11,6 +11,14 @@ font-family:Arial,sans-serif;
 margin: 0 4px 0 0;
 }
 
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 /* unvisited link */
 a:link {
   color: lightblue;
@@ -20,4 +28,3 @@ a:link {
 a:hover {
   color: hotpink;
 }
-
