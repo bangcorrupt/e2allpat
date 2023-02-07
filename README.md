@@ -2,7 +2,6 @@
 
 Python Flask app to convert allpat file to zip archive of pattern files and vice versa.
 
-Hosted at: https://e2allpat.herokuapp.com/
 
 
 # Help 
